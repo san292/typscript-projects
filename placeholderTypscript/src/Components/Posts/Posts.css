@@ -1,0 +1,33 @@
+.post{
+    width: 1200px;
+ 
+    margin: 0 auto;
+
+}
+h1{
+    color: rgb(239, 42, 111);
+}
+ul{
+    
+ display: flex;
+ align-items: center;
+ align-content: center;
+ justify-content: space-between;
+ list-style: none;
+ cursor: pointer;
+ gap:3rem;
+ flex-wrap: wrap;
+
+}
+li{
+  width: 350px;
+  height: 250px;
+  background-color: rgb(184, 192, 192);
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
